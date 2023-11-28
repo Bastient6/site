@@ -352,6 +352,7 @@ figure:hover+span {
 .contact-info h1:nth-child(6) {
     margin: 0;
     font-size: 26px; /* Réduction de la taille de police */
+    line-height: 1.5;
 }
 
 .contact-info h1:nth-child(2),
@@ -373,6 +374,7 @@ figure:hover+span {
 .contact-info p {
     margin: 10px; /* Ajout de marges uniformes */
     font-size: 16px; /* Ajustement de la taille de police */
+    line-height: 1.5;
 }
 
 .contact-info ul {
