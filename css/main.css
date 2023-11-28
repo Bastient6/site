@@ -344,7 +344,7 @@ figure:hover+span {
 
 .contact-info h1 {
     color: #2C4755;
-    margin-bottom: 10px; /* Réduction de la marge inférieure */
+    margin-bottom: 10000px; /* Réduction de la marge inférieure */
 }
 
 .contact-info h1:nth-child(2),
