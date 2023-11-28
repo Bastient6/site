@@ -336,54 +336,56 @@ figure:hover+span {
 .contact h6 {
 	color: #EBECED;
 }
-.contact-info h1:first-child {
-	color: #2C4755;
-	margin:0px 50px 30px 150px;
+.contact-info {
+    text-align: center;
+    width: 100%;
+    padding: 50px; /* Ajout de padding pour l'espace autour du contenu */
 }
-.contact-info h1:nth-child(3) {
-	color: #2C4755;
-	margin:0px 50px 30px 150px;
-}
-.contact-info h1:nth-child(5) {
-	color: #2C4755;
-	margin:0px 50px 30px 150px;
 
+.contact-info h1 {
+    color: #2C4755;
+    margin-bottom: 10px; /* Réduction de la marge inférieure */
 }
-.contact-info h1:nth-child(2) {
-	margin:0px 50px 25px 190px;
-	font-size: 33px;
-}
-.contact-info h1:nth-child(4) {
-	margin:0px 50px 25px 190px;
-	font-size: 33px;
-}
+
+.contact-info h1:nth-child(2),
+.contact-info h1:nth-child(4),
 .contact-info h1:nth-child(6) {
-	margin:0px 50px 25px 190px;
-	font-size: 33px;
+    margin: 0;
+    font-size: 26px; /* Réduction de la taille de police */
 }
+
+.contact-info h1:nth-child(2),
+.contact-info h1:nth-child(4),
+.contact-info h1:nth-child(6),
+.contact-info a {
+    margin: 10px; /* Ajout de marges uniformes */
+}
+
+.contact-info a {
+    color: #334752;
+    text-decoration: none; /* Suppression du soulignement du lien */
+}
+
+.contact-info a:hover {
+    color: #10CAB7;
+}
+
 .contact-info p {
-	margin:30px 20px 25px 230px;
-	float: left;
+    margin: 10px; /* Ajout de marges uniformes */
+    font-size: 16px; /* Ajustement de la taille de police */
 }
-.contact-info i {
-	color: #334752;
-	font-size: 17px;
-}
-.contact-info i:hover {
-	color: #10CAB7;
-}
-.contact-info ul li {
-	display: inline;
-	padding: 10px;
-}
+
 .contact-info ul {
-	float: left;
-	margin-top: 27px;
+    margin-top: 20px; /* Ajustement de la marge supérieure */
 }
-.contact-info{
-	text-align: center;
-	width: 100%;
-	height: 100%;
+
+.contact-info ul li {
+    display: inline-block; /* Correction de l'affichage des éléments en ligne */
+    margin-right: 10px; /* Ajout de marges entre les éléments */
+}
+
+.contact-info i {
+    font-size: 20px; /* Ajustement de la taille de police */
 }
 /* footer */
 .footer {
